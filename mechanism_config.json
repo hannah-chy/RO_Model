@@ -1,0 +1,26 @@
+{
+    "mechanism_groups": {
+        "Electrostatic": {
+            "color": "#6C96CC",
+            "features": ["Total_Charge", "pH", "Dipole_moment"]
+        },
+        "Steric": {
+            "color": "#A4C8D9",
+            "features": [
+                "MWCO", 
+                "Molecular_Weight",
+                "Molecular_Length", 
+                "Molecular_Width", 
+                "Molecular_Height"
+            ]
+        },
+        "van der Waals": {
+            "color": "#EDAE92",
+            "features": ["Polarizability"]
+        },
+        "Hydrophobic": {
+            "color": "#C92321",
+            "features": ["log_Kow", "contact_angle"]
+        }
+    }
+}
